@@ -1,0 +1,90 @@
+2023-05-17 15:46:38.5494 Info Email is preparing...
+2023-05-17 15:46:43.0776 Info Email sent successfully
+2023-05-17 15:50:20.1113 Info Email is preparing...
+2023-05-17 15:50:24.3447 Info Email sent successfully
+2023-05-17 16:09:46.6279 Info Email is preparing...
+2023-05-17 16:09:46.7052 Info Test
+2023-05-17 16:09:46.7052 Info Test
+2023-05-17 16:09:51.3671 Info Email sent successfully
+2023-05-17 16:11:41.5389 Info Email is preparing...
+2023-05-17 16:11:41.5810 Info Test
+2023-05-17 16:11:41.5810 Info Test Body
+2023-05-17 16:11:45.1391 Info Email sent successfully
+2023-05-17 16:12:34.5199 Info Email is preparing...
+2023-05-17 16:12:34.5739 Info Test
+2023-05-17 16:12:34.5739 Info Test Body
+2023-05-17 16:12:38.0816 Info Email sent successfully
+2023-05-17 16:13:55.4852 Info Email is preparing...
+2023-05-17 16:13:55.5406 Info Test
+2023-05-17 16:13:55.5406 Info Test Body
+2023-05-17 16:13:58.8782 Info Email sent successfully
+2023-05-17 16:14:49.3417 Info Email is preparing...
+2023-05-17 16:14:49.3985 Info Test
+2023-05-17 16:14:49.3985 Info Test Body
+2023-05-17 16:14:49.5401 Error An error occurred while sending email
+2023-05-17 16:15:34.7372 Info Email is preparing...
+2023-05-17 16:15:34.7839 Info Test
+2023-05-17 16:15:34.7839 Info Test Body
+2023-05-17 16:15:34.8976 Error Failure sending mail.
+2023-05-17 16:17:24.8428 Info Email is preparing...
+2023-05-17 16:17:24.8812 Info Test
+2023-05-17 16:17:24.8820 Info Test Body
+2023-05-17 16:17:46.0753 Error Failure sending mail.
+2023-05-17 16:20:13.0122 Info Email is preparing...
+2023-05-17 16:20:13.0457 Info Test
+2023-05-17 16:20:13.0457 Info Test Body
+2023-05-17 16:20:16.7476 Info Email sent successfully
+2023-05-17 16:21:08.7923 Info Email is preparing...
+2023-05-17 16:21:08.8529 Info Test
+2023-05-17 16:21:08.8529 Info Test Body
+2023-05-17 16:21:12.7681 Info Email sent successfully
+2023-05-17 16:21:25.3667 Info Email is preparing...
+2023-05-17 16:21:25.4290 Info Test
+2023-05-17 16:21:25.4290 Info Test Body
+2023-05-17 16:21:46.7512 Error System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. [::ffff:172.253.118.108]:588
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+   at System.Net.Mail.SmtpConnection.GetConnection(String host, Int32 port)
+   at System.Net.Mail.SmtpTransport.GetConnection(String host, Int32 port)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at EmailSendApp.Program.Main(String[] args) in D:\My Projects\Email Controller\EmailSendApp\EmailSendApp\Program.cs:line 35
+2023-05-17 16:23:23.1165 Info Email is preparing...
+2023-05-17 16:23:23.1764 Info Test
+2023-05-17 16:23:23.1764 Info Test Body
+2023-05-17 16:23:26.6375 Info Email sent successfully
+2023-05-17 16:24:08.0661 Info Email is preparing...
+2023-05-17 16:24:08.1208 Info Test
+2023-05-17 16:24:08.1208 Info Test Body
+2023-05-17 16:24:08.2572 Error An error occurred while sending email
+2023-05-17 16:24:37.0555 Info Email is preparing...
+2023-05-17 16:24:37.0915 Info Test
+2023-05-17 16:24:37.0915 Info Test Body
+2023-05-17 16:24:37.2264 Error System.Net.Mail.SmtpException: Failure sending mail.
+2023-05-17 16:25:08.4533 Info Email is preparing...
+2023-05-17 16:25:08.4860 Info Test
+2023-05-17 16:25:08.4860 Info Test Body
+2023-05-17 16:25:12.2815 Info Email sent successfully
+2023-05-17 16:27:54.3300 Info Email is preparing...
+2023-05-17 16:27:54.3913 Info Test
+2023-05-17 16:27:54.3913 Info Test Body
+2023-05-17 16:27:57.6820 Info Email sent successfully
+2023-05-17 16:28:16.9758 Info Email is preparing...
+2023-05-17 16:28:17.0387 Info Test
+2023-05-17 16:28:17.0387 Info Test Body
+2023-05-17 16:28:20.4576 Info Email sent successfully
+2023-05-18 09:54:43.9005 Info Email is preparing...
+2023-05-18 09:54:43.9509 Info Test
+2023-05-18 09:54:43.9509 Info Test Body
+2023-05-18 09:54:48.2770 Info Email sent successfully
+2023-05-22 14:55:30.4676 Info Email is preparing...
+2023-05-22 14:55:30.5153 Info Test
+2023-05-22 14:55:30.5153 Info Test Body
+2023-05-22 14:55:34.1898 Info Email sent successfully
